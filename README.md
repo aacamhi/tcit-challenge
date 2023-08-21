@@ -6,7 +6,7 @@ Challenge desarrollado por Ariel Camhi en el contexto de su postulación a TCIT.
 En paréntesis está la versión que se utilizó para el desarrollo de este proyecto, pero es probable que versiones anteriores también funcionen en algunos casos.
 - ruby (3.2.2)
 - rails (7.0.7)
-- node (18.16.1)
+- node (18.16.1) y npm (9.5.1)
 - Servidor de base de datos postgres corriendo en el puerto 5432
 
 ## Instrucciones para levantar el backend
