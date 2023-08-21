@@ -1,6 +1,7 @@
 import selectFilteredPosts from "../selectors/selectFilteredPosts";
 import { useSelector } from "react-redux";
 import axios from 'axios';
+import urls from "../constants/urls";
 
 function PostsList() {
     const filterText = useSelector((state) => state.filter)
@@ -9,7 +10,7 @@ function PostsList() {
     );
     const deletePost = async (id) => {
         try {
-            await axios.delete(`http://localhost:5000/posts/${id}`);
+            await axios.delete(`${urls.POSTS_BACKEND_URL}/posts/${id}`);
             window.location.reload();
         } catch (error) {
             alert('No se pudo eliminar el mensaje.')

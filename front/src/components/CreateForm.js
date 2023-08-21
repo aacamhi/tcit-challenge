@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setDescription, setName } from "../features/posts/newPostSlice";
 import axios from 'axios';
+import urls from "../constants/urls";
 
 function CreateForm() {
     const newPost = useSelector((state) => state.newPost)
@@ -9,7 +10,7 @@ function CreateForm() {
         e.preventDefault();
         if (newPost.value.name && newPost.value.description) {
             try {
-                await axios.post('http://localhost:5000/posts', newPost.value);
+                await axios.post(`${urls.POSTS_BACKEND_URL}/posts`, newPost.value);
                 dispatch(setName(''));
                 dispatch(setDescription(''));
                 window.location.reload();
