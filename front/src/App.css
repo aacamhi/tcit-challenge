@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 25px;
+  color: purple;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1000px;
+  gap: 20px;
+}
+
+.search-bar-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-bar {
+  width: 300px;
+  height: 20px;
+}
+
+.table-container {
+  height: 400px;
+  overflow-y: scroll;
+  border: 3px solid black;
+}
+
+table {
+  width: 1000px;
+  height: 70%;
+  overflow-y: scroll;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: purple;
+  color: white;
+  position: sticky;
+  /* make the table heads sticky */
+  top: 0px;
+  /* table head will be placed from the top of the table and sticks to it */
+  border-bottom: black 1px solid;
+}
+
+th {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px 16px;
+  border: 1px solid black;
+  max-height: 40px;
+  overflow-y: scroll;
+}
+
+.new-post-title {
+  color: purple;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+input {
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.description {
+  width: 400px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: grey;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
