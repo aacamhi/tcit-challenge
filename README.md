@@ -10,13 +10,29 @@ Challenge desarrollado por Ariel Camhi en el contexto de su postulación a TCIT.
 - Servidor de base de datos postgres corriendo en el puerto 5432
 
 ## Instrucciones para levantar el backend
-` cd back
-` bundle install
-` rails db:migrate
-` rails db:seed (*Este paso es opcional, si se quiere probar la aplicación con un conjunto de datos iniciales)
-` rails s
+~~~
+cd back
+~~~
+~~~
+bundle install
+~~~
+~~~
+rails db:migrate
+~~~
+~~~
+rails db:seed (*Este paso es opcional, si se quiere probar la aplicación con un conjunto de datos iniciales)
+~~~
+~~~
+rails s
+~~~
 
 ## Instrucciones para levantar el frontend
-` cd front
-` npm i
-` npm start
+~~~
+cd front
+~~~
+~~~
+npm i
+~~~
+~~~
+npm start
+~~~
