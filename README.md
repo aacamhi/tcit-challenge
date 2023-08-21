@@ -3,7 +3,7 @@
 Challenge desarrollado por Ariel Camhi en el contexto de su postulación a TCIT.
 
 ## Prerequisitos
-* En paréntesis está la versión que se utilizó para el desarrollo de este proyecto, pero es probable que versiones anteriores también funcionen en algunos casos.
+En paréntesis está la versión que se utilizó para el desarrollo de este proyecto, pero es probable que versiones anteriores también funcionen en algunos casos.
 - ruby (3.2.2)
 - rails (7.0.7)
 - node (18.16.1)
