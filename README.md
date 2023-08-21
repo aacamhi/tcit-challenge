@@ -19,8 +19,9 @@ bundle install
 ~~~
 rails db:migrate
 ~~~
+El siguiente paso es opcional, si se quiere probar la aplicación con un conjunto de datos iniciales:
 ~~~
-rails db:seed (*Este paso es opcional, si se quiere probar la aplicación con un conjunto de datos iniciales)
+rails db:seed
 ~~~
 ~~~
 rails s
